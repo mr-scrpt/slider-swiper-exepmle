@@ -1,0 +1,32 @@
+.banner {
+	&__inner {
+		max-width: 1440px;
+		width: 100%;
+		margin: auto;
+		display: flex;
+	}
+
+	&__slider {
+		background-color: pink;
+		width: 50%;
+	}
+
+	&__about {
+		background-color: yellow;
+		width: 50%;
+	}
+}
+
+.slider {
+	&__inner {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		height: 100%;
+		width: 100%;
+	}
+
+	&__box {
+		background-color: green;
+	}
+}

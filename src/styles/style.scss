@@ -1,0 +1,34 @@
+/* Библиотеки */
+@import "./lib/smartgrid.scss";
+
+/* INIT */
+@import "./preset/reset.scss";
+@import "./preset/var.scss";
+@import "./preset/mixins.scss";
+
+/* Фундоментальные Блоки */
+@import "./fundamental/page.scss";
+@import "./fundamental/layout.scss";
+
+/* Блоки */
+
+@import "./blocks/img.scss";
+
+/* Блоки Верстки */
+@import "./custom/main.scss";
+@import "./custom/banner.scss";
+@import "./custom/slider.scss";
+
+/* Навигация */
+* {
+	box-sizing: border-box;
+}
+html {
+	height: 100%;
+	overflow-y: scroll;
+}
+
+body {
+	height: 100%;
+	-webkit-overflow-scrolling: touch;
+}
